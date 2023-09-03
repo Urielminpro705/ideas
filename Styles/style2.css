@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    top: 400px;
+    width: 200px;
+    height: 50px;
+    background-color: cadetblue;
+    position: relative;
+    box-shadow: 0px 0px;
+    transition: 0.3s;
+    border: 1px transparent solid;
+    border-radius: 10px;
+}
+
+.card:active {
+    transform: translateY(-200px);
+}
